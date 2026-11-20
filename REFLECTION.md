@@ -1,7 +1,7 @@
 # Reflection (after one real execution; details in RUN-LOG.md)
 
 ## 1. Which node most often made errors?
-The render step (render gate). It produced 4 of the problems in the log: tier-count tiles showing 0, a diagram label that overflowed, a phone header unreadable on a bright background, and a selector in my own check that miscounted after I added the lesson. The extract step had 1 (a wrong count, 83 instead of 82), clean had 1 (the e-mail footer), lint had 1 (2 orphan pages), and my two text checks each raised 1 false alarm. The biggest single error was not in a node: I misunderstood what the reader wanted and built a method deck instead of the daily briefing.
+The render step (render gate). It produced 4 of the problems in the log: tier-count tiles showing 0, a diagram label that overflowed, a phone header unreadable on a bright background, and a selector in my own check that miscounted after I added the lesson. The extract step had 1 (a wrong count, 83 instead of 82), clean had 1 (the e-mail footer), lint had 1 (2 orphan pages), and my two text checks each raised 1 false alarm. The biggest single error was not in a node: most biggest error was I misunderstood what the reader wanted and built a method deck instead of the daily briefing. 
 
 ## 2. At which step did I find the problem, and where did I move the check?
 - The tier-count bug was found by looking at a screenshot after the render gate said "0 failures". The gate only measured layout, not values. I moved the check earlier and closer to the data: the gate now computes the expected numbers from `items.json` and compares them with the page.
