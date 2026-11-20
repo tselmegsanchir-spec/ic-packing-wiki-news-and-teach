@@ -69,8 +69,8 @@ Requires: Python 3 with `playwright` (set env `CHROME_PATH` to a Chrome/Chromium
 3. For every NEW item add `"ID": [tier, "own-words paraphrase"]` to `tools/notes.json` (tier 1/2/3 per section 1; never copy blurb wording), then `python3 tools/gen_sources.py`.
 4. Update concept/company/event pages (append only), glossary, `open-questions.md` (log conflicts), `index.md`, `log.md`. Then `python3 tools/lint.py` must print 0 failures.
 5. Briefing: choose 6-8 stories, last 7 days weighted first. Edit `tools/briefing.json` (cards: head, topic, happened[{t,c:[IDs]}], basics, ai, optional flag). Show the owner the OUTLINE (card headlines) and wait for approval.
-6. After approval run `python3 tools/faithfulness_briefing.py` (fix until 0), write `tools/briefing_mn.json` with the same structure and card order, run `python3 tools/consistency_mn.py`, then `python3 tools/render_briefing.py en` and `... mn`, then `python3 tools/render_check_briefing.py index.html` and `... index-mn.html`. Look at screenshots (`/tmp/*.png`) before delivering.
-7. Deliver `index.html`, `index-mn.html`, and `assets/`. Do not publish `raw/`.
+6. After approval run `python3 tools/faithfulness_briefing.py` (fix until 0), write `tools/briefing_mn.json` with the same structure and card order, run `python3 tools/consistency_mn.py`, then `python3 tools/render_briefing.py` (builds ONE index.html containing both languages with an EN/МН switch), then `python3 tools/render_check_briefing.py index.html` (checks both languages at 390 and 1280 px). Look at screenshots (`/tmp/*.png`) before delivering.
+7. Deliver `index.html` (one page, EN/МН switch; `?lang=mn` opens Mongolian), `index-mn.html` (redirect only), and `assets/`. Do not publish `raw/`.
 Known limits: linked outlet articles are usually not fetchable, so facts rest on newsletter blurbs; say so.
 
 ## 8. Lint (run before generating slides)

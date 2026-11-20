@@ -2,7 +2,7 @@
 
 A small LLM Wiki (Karpathy-style) built from the daily newsletter *Semiconductor Packaging News*, plus an HTML briefing generated from it.
 
-- Open `index.html` (English) or `index-mn.html` (Mongolian): a lesson (7 terms and a quiz) followed by the news. `graph.html` shows the graph and loop design for the teacher; `RUN-LOG.md` is the execution record; `REFLECTION.md` is the reflection.
+- Open `index.html` (one page; EN/МН switch top right, `?lang=mn` opens Mongolian): a lesson (7 terms and a quiz) followed by the news. `graph.html` shows the graph and loop design for the teacher; `RUN-LOG.md` is the execution record; `REFLECTION.md` is the reflection.
 - `wiki/` holds the pages, `index.md` is the catalog, `log.md` the change log, `AGENTS.md` the rules, `DECISIONS.md` the decisions, `REFLECTION.md` the reflection.
 - `assets/` holds the background images and icons (made from the owner's own generated images); upload it with `index.html`. The three large original `Gemini_Generated_Image_*.jpg` files are not needed online.
 - `raw/` (cleaned newsletter text) is private and is not in this repo.

@@ -1,6 +1,6 @@
 # RUN-LOG — one real execution (2026-11-20 to 2026-11-21)
 
-Input: 7 newsletter issues (2026-11-12 to 2026-11-20) read from Gmail (read-only). Output: wiki (7 source pages, 20 synthesized pages), `index.html` (EN), `index-mn.html` (MN), `graph.html`.
+Input: 7 newsletter issues (2026-11-12 to 2026-11-20) read from Gmail (read-only). Output: wiki (7 source pages, 20 synthesized pages), `index.html` (EN + MN in one page with a language switch), `graph.html`.
 
 ## Node-by-node record
 | # | Node | Gate / check | Result on first run | What I did | Result after |
