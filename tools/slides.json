@@ -1,0 +1,56 @@
+[
+{"n":1,"tier":"meta","title":"Packaging-Aware IC Designer Briefing","sub":"Week of Nov 12-20, 2026, generated from a cited wiki",
+ "bullets":[
+ {"k":"meta","t":"For: one EECS student in Taiwan, a semiconductor beginner who wants to become an IC designer."},
+ {"k":"meta","t":"Problem: the daily Semiconductor Packaging News is long, ad-heavy and packaging-centric; this turns it into short, cited cards."},
+ {"k":"meta","t":"Method: Gmail newsletter, then wiki, then a Graph/Loop workflow, then this HTML."}]},
+{"n":2,"tier":"meta","title":"How this deck was made (Graph with Loops)","sub":"Each node sees only its allowed input; one human checkpoint at the outline",
+ "diagram":true,"bullets":[
+ {"k":"meta","t":"Gates: wiki sources only; citation on every fact; faithfulness check (max 3 passes); render check for overflow (max 3 passes)."},
+ {"k":"meta","t":"Return routes: a failed faithfulness check returns to the draft node; a failed render check returns to the render node; an unfixable card is dropped."}]},
+{"n":3,"tier":"meta","title":"The week at a glance","sub":"What went into the wiki",
+ "stats":true,"bullets":[
+ {"k":"meta","t":"Tier 1 (IC design) gets depth; Tier 2 (process, packaging, memory) gets brief notes; Tier 3 (market, geopolitics) gets one line."},
+ {"k":"meta","t":"Excluded: sponsor ads, paid press releases, quiz and cartoon."}]},
+{"n":4,"tier":"1","title":"Chiplets and hybrid bonding: smaller connections, new design questions","sub":"Tier 1",
+ "bullets":[
+ {"k":"fact","t":"Samsung targets early 2027 to develop 3D Cube-H hybrid bonding with a 6 µm interconnect pitch for AI processors and HBM.","c":["SPN-1112-01"]},
+ {"k":"fact","t":"A paper calls hybrid and fusion wafer bonding foundational for both 'More than Moore' integration and 'More Moore' transistor scaling.","c":["SPN-1116-03"]},
+ {"k":"fact","t":"Fine-pitch probing (EOTPR) can isolate die-to-die interconnect defects in chiplet devices.","c":["SPN-1120-03"]},
+ {"k":"basics","t":"Basics: flip-chip joins a die face-down with solder bumps; hybrid bonding joins copper pads directly, so connections can be much closer together."},
+ {"k":"hyp","t":"Designers may need to plan die-to-die interfaces and test access earlier in the flow. The sources do not say this."}]},
+{"n":5,"tier":"1","title":"AI agents in chip design: promising, but supervised","sub":"Tier 1",
+ "bullets":[
+ {"k":"fact","t":"Agentic AI automates engineering workflows and widens design exploration while engineers keep oversight and verification.","c":["SPN-1113-10"]},
+ {"k":"fact","t":"Orchestration, security, data privacy and reliability must improve before agents get more autonomy.","c":["SPN-1117-01"]},
+ {"k":"fact","t":"Synopsys, Hiveware, Silvaco and Axiomise name integration, expertise retention, data protection and cost as challenges.","c":["SPN-1119-10"]},
+ {"k":"fact","t":"Siemens will acquire Lauterbach to combine chip verification with software debugging in its EDA portfolio.","c":["SPN-1112-11"]},
+ {"k":"basics","t":"Basics: EDA is the software used to design chips; 'shift left' means finding problems earlier in the flow."}]},
+{"n":6,"tier":"1","title":"The memory wall: moving data is the bottleneck","sub":"Tier 1",
+ "bullets":[
+ {"k":"fact","t":"Edge AI inference drives memory designs that cut data movement, such as processing-in-memory and near-memory computing.","c":["SPN-1113-02"]},
+ {"k":"fact","t":"Larger models and longer context windows strain memory capacity, bandwidth, latency, power and cost.","c":["SPN-1113-09"]},
+ {"k":"fact","t":"Samsung is reportedly developing custom HBM4E for Meta, with customer-specific functions in a 2 nm base die.","c":["SPN-1118-05"]},
+ {"k":"fact","t":"With memory scarce, better test, repair and reliability raise the number of usable dies.","c":["SPN-1117-07"]},
+ {"k":"basics","t":"Basics: HBM stacks DRAM dies beside the processor; the base die at the bottom of the stack handles the interface."}]},
+{"n":7,"tier":"2","title":"Packaging capacity and foundry moves","sub":"Tier 2",
+ "bullets":[
+ {"k":"fact","t":"Intel signed its first external 18A-P foundry customer and named Microsoft as first customer for EMIB packaging.","c":["SPN-1120-01"]},
+ {"k":"fact","t":"ASE is investing NT$100 billion in two Kaohsiung plants for advanced AI chip packaging, aiming at 5,000 jobs.","c":["SPN-1116-02"]},
+ {"k":"fact","t":"SPIL partnered with Nvidia to triple Taiwan's advanced packaging capacity by mid-2029.","c":["SPN-1119-01"]},
+ {"k":"fact","t":"Nvidia is also investing over US$1 billion in Kinsus to expand substrate manufacturing.","c":["SPN-1119-01"]},
+ {"k":"fact","t":"SMIC sees tight capacity through 2027, with equipment lead times of 16-24 months.","c":["SPN-1117-02"]}]},
+{"n":8,"tier":"3","title":"One-line context: policy, Nvidia, TSMC","sub":"Tier 3",
+ "bullets":[
+ {"k":"fact","t":"The US requires licences for overseas data centres serving Chinese firms.","c":["SPN-1117-06"]},
+ {"k":"fact","t":"TSMC halted advanced orders below 16 nm from Chinese chipmakers without US licences.","c":["SPN-1120-04"]},
+ {"k":"fact","t":"Nvidia reported record Q3 revenue of US$115.8 billion under an interim CEO.","c":["SPN-1120-07"]},
+ {"k":"fact","t":"Experts expect little disruption to Taiwan's supply chain from the Nvidia leadership change.","c":["SPN-1116-08"]},
+ {"k":"fact","t":"TSMC set up a US$500 million investment company; another report says up to US$1 billion in OpenAI and Anthropic. The amounts differ and are not reconciled.","c":["SPN-1112-08","SPN-1112-09"]}]},
+{"n":9,"tier":"meta","title":"AI hypotheses (not facts) and limits","sub":"Read as opinion",
+ "bullets":[
+ {"k":"hyp","t":"If agents take routine verification work, a junior designer's value may shift to writing specifications and judging results."},
+ {"k":"hyp","t":"Packaging knowledge may help avoid late redesigns as chiplets spread."},
+ {"k":"meta","t":"Limits: facts come from newsletter blurbs only; linked articles were not reachable, so two conflicts stay open in the wiki."},
+ {"k":"meta","t":"Next: ask 'refresh' to add new issues and weight the last 7 days."}]}
+]
