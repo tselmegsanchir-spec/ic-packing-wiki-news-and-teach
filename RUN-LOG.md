@@ -35,3 +35,18 @@ Input: 7 newsletter issues (2026-11-12 to 2026-11-20) read from Gmail (read-only
 - One execution only; the numbers above are from that run.
 - Faithfulness checks numbers and names, not verbs or meaning; the Mongolian meaning is not machine-verified.
 - Linked outlet articles were not reachable, so facts rest on newsletter blurbs.
+
+## Refresh run (2026-11-28) — second execution, same graph
+Trigger: owner asked to continue and refresh. Reading: Gmail, `from:` the newsletter after 2026-11-20 → 4 threads; 1 already ingested (11-20), so 3 new issues: 2026-11-23, 11-24, 11-25 (none on 11-26/27, Thanksgiving break). The owner waived the outline checkpoint for this run ("do everything and report"), so the outline was not approved before generation; the card list is shown in the hand-over message instead.
+
+| Node | Check | Result |
+|---|---|---|
+| Read mail / Clean | no e-mail address or tracking tokens in `raw/` | grep clean; footer and sponsor blocks cut by hand (raw written directly because tool output cannot be piped to disk) |
+| Extract items | old IDs unchanged | 130 items, 120 unique; the 82 old IDs identical; 1 repeat (EOTPR paper) marked |
+| Tier + notes | 38 new own-word notes | 120 notes |
+| Wiki pages | append only; 3 source pages, 14 pages appended, glossary +6 terms, Conflict 4 (Nvidia CEO resigned vs removed then reinstated) | lint: 0 failures |
+| Faithfulness | first pass 4 false alarms: sentence-initial words ("Earlier", "Analysts", "Earlier reports") not in the evidence | reworded so each sentence starts with a name from the evidence; second pass 0 |
+| Consistency (MN) | numbers and names equal to EN | 0 failures on first pass; I then fixed 3 wording errors by reading (rare-earth, spy, derivative) that no script can catch |
+| Render gate | 390 and 1280 px, EN and MN, 8 visible cards each, no overflow, anchors | 0 failures |
+
+New problem found in this run: `gen_sources.py` had a hard-coded `updated: 2026-11-20`; changed to the issue date. The lexical faithfulness check again could not see meaning, so the Mongolian text still needs a human read.

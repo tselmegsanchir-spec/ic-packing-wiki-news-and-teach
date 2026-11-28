@@ -14,3 +14,6 @@ A small LLM Wiki (Karpathy-style) built from the daily newsletter *Semiconductor
 2. Upload or push all files in this folder (`raw/` is excluded by `.gitignore`).
 3. Settings, Pages, Deploy from branch `main`, folder `/ (root)`.
 4. Open the Pages URL in an Incognito window and check every slide.
+
+## Updates
+- 2026-11-28: refreshed with issues 2026-11-23, 11-24, 11-25 (10 issues, 120 unique items in total). See RUN-LOG.md.

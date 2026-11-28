@@ -1,84 +1,482 @@
 {
-"SPN-1112-01":[1,"Samsung aims for early 2027 to develop 3D Cube-H hybrid bonding, with a 6 µm interconnect pitch for stacking AI processors and HBM."],
-"SPN-1112-02":[3,"Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress becomes interim CEO; stock fell 13%."],
-"SPN-1112-03":[2,"Whitepaper on oxide removal, cleaning and activation for power-electronics assembly."],
-"SPN-1112-04":[2,"imec CEO says AI pushes innovation toward system-level integration of logic, memory, photonics and packaging."],
-"SPN-1112-05":[3,"Samsung and SK hynix watch Nvidia's leadership uncertainty but expect existing supply deals to stay largely unaffected."],
-"SPN-1112-06":[2,"Credo shows micro-emitter optics and a 1.6T active light cable with copper-level reliability over 50 m at OCP 2026."],
-"SPN-1112-07":[2,"Diamond Foundry makes a first 200 mm single-crystal diamond wafer, aimed at AI-chip cooling."],
-"SPN-1112-08":[3,"TSMC sets up a US$500 million investment company to take stakes in chip-ecosystem firms."],
-"SPN-1112-09":[3,"TSMC plans to invest up to US$1 billion in OpenAI and Anthropic plus a strategic investment arm (SCMP view of what it gains)."],
-"SPN-1112-10":[2,"AMD and Samsung develop embedded processors (EPYC Embedded 9006) with up to 1.8x throughput."],
-"SPN-1112-11":[1,"Siemens will acquire Lauterbach to add chip verification and software debugging to its EDA portfolio."],
-"SPN-1112-12":[2,"University of Tokyo makes p-type boron carbon nitride on a 2-inch wafer for complementary 2D electronics."],
-"SPN-1112-13":[2,"Musk's Terafab targets 1 million wafers per month after 2032, 700,000 of them memory."],
-"SPN-1113-01":[1,"IP integration risk is rising with complex SoCs and chiplets; experts call for better specs, cross-block verification, IP management and AI-assisted testing."],
-"SPN-1113-02":[1,"Edge AI inference drives memory architectures that cut data movement: processing-in-memory and near-memory computing."],
-"SPN-1113-03":[2,"Paper: metal TIM warpage simulations fail with bulk material data; rheometer-derived film data improves accuracy."],
-"SPN-1113-04":[3,"EE Times reports Huang's resignation as Nvidia CEO and the task of finding a successor."],
-"SPN-1113-05":[3,"CNBC reports an investigation alleging an Alice Huang link to Huawei-linked firms, raising export-control concerns."],
-"SPN-1113-06":[3,"Nvidia's turmoil lifts AMD and Broadcom shares as investors expect customers to diversify."],
-"SPN-1113-07":[3,"Hon Hai Q3 net profit up 34% to NT$77.52 billion on AI server demand."],
-"SPN-1113-08":[3,"CNBC discusses Nvidia's succession uncertainty and investor confidence despite record growth."],
-"SPN-1113-09":[1,"Larger models and longer context strain memory capacity, bandwidth, latency, power and cost; compute, interconnect and software must be co-planned."],
-"SPN-1113-10":[1,"Agentic AI automates semiconductor engineering workflows and widens design exploration while humans keep oversight and verification."],
-"SPN-1113-11":[1,"Arm adds FP8 support; an FPMR register switches between E4M3 and E5M2 formats to cut memory, power and latency."],
-"SPN-1113-12":[1,"AI-driven design favors parallelism and power efficiency; experts discuss RISC-V as a flexible open base for AI accelerators."],
-"SPN-1116-01":[2,"At electronica 2026 chipmakers stress system-level platforms: MCUs with NPUs, agentic tools, power electronics, vertical power delivery, GaN for data centers."],
-"SPN-1116-02":[2,"ASE invests NT$100 billion in two Kaohsiung plants for advanced AI chip packaging, targeting NT$80 billion annual revenue and 5,000 jobs."],
-"SPN-1116-03":[1,"Paper: hybrid and fusion wafer bonding underpin both 'More than Moore' heterogeneous integration and 'More Moore' transistor scaling."],
-"SPN-1116-04":[3,"Weekly roundup: manufacturing, chiplet integration, automotive processors, AI hardware and Nvidia-related export scrutiny."],
-"SPN-1116-05":[3,"TSMC received a record NT$167.586 billion in subsidies from US, Japan, Germany and China in the first nine months of 2026."],
-"SPN-1116-06":[3,"Opinion: Taiwan's 'silicon shield' is no guarantee; defense resilience also needed."],
-"SPN-1116-07":[3,"US House Speaker cites growing consensus for tighter AI chip export curbs to China."],
-"SPN-1116-08":[3,"Experts expect little disruption to Taiwan's supply chain from Huang's exit; ASIC and AMD diversification may speed up; CUDA keeps Nvidia entrenched."],
-"SPN-1116-09":[2,"Germanium doping improves electron movement in alpha-gallium oxide films without hurting thermal conductivity (power electronics)."],
-"SPN-1116-10":[3,"Analysts: no immediate disruption for TSMC, Samsung, ASUS; long-term roadmap concerns remain."],
-"SPN-1116-11":[3,"Singapore faces scrutiny over suspected Nvidia chip smuggling to China and a US$390 million fraud case."],
-"SPN-1116-12":[2,"GlobalFoundries breaks ground on a US$10 billion fab in Malta, New York."],
-"SPN-1117-01":[1,"AI agents automate customization, verification and optimization in chip design; orchestration, security, privacy and reliability must improve first."],
-"SPN-1117-02":[2,"SMIC sees tight capacity through 2027, maybe into 2H28; equipment lead times 16-24 months."],
-"SPN-1117-03":[2,"Paper: alkaline wet etch for Al and AlCu as a PAN-free alternative."],
-"SPN-1117-04":[2,"TRIUMF accelerator supports semiconductor materials analysis and radiation testing."],
-"SPN-1117-05":[3,"US Treasury Secretary urges Nvidia's board to appoint external leadership and probe alleged smuggling."],
-"SPN-1117-06":[3,"US requires licences for overseas data centres serving Chinese firms, closing a cloud loophole."],
-"SPN-1117-07":[2,"With memory scarce, better test, repair and reliability raise usable die supply across SRAM, DRAM and HBM."],
-"SPN-1117-08":[3,"Opinion: export controls may speed China's domestic AI development."],
-"SPN-1117-09":[2,"AI-powered three-layer sensor works as a compact spectrometer, cutting reconstruction error 95.6%."],
-"SPN-1117-10":[3,"Opinion: Huang's exit shows Asia's dependence on one US company."],
-"SPN-1117-11":[3,"Opinion: governments tighten export controls and secure supply chains as China pursues chip independence."],
-"SPN-1118-01":[2,"India expands IC packaging: Vishay, Kaynes, Paras Semiconductors and BroadPak launch joint ventures and facilities."],
-"SPN-1118-02":[2,"OSAT market forecast at US$80.2 billion by 2033 (market-research press release)."],
-"SPN-1118-03":[2,"Paper: LAB, R-LAB and R-LTC flip-chip bonding for AI/HPC chiplet packages."],
-"SPN-1118-04":[2,"Nvidia posts record revenue, raises FY2028 growth outlook to 75% and secures memory, substrate and packaging capacity with TSMC's help."],
-"SPN-1118-05":[1,"Samsung reportedly develops custom HBM4E for Meta, with customer functions in a 2 nm base die."],
-"SPN-1118-06":[3,"Editorial: Taiwan stays vital to AI supply chain despite Huang's exit; risks are delayed servers and volatility."],
-"SPN-1118-07":[3,"Nvidia forms a board committee on national security and export controls."],
-"SPN-1118-08":[2,"Optical computing gains momentum as AI inference demands energy efficiency; startups build photonic chips."],
-"SPN-1118-09":[3,"Intesa Sanpaolo uses quantum-inspired algorithms on GPUs for ATM cash planning (off-topic for IC design)."],
-"SPN-1118-10":[1,"Lam Research's David Fried on blending physics and data in simulation for angstrom-level control, memory and advanced packaging."],
-"SPN-1118-11":[2,"imec opens a Japan R&D base at Hokkaido University: 15 researchers over five years on photonic ICs and packaging."],
-"SPN-1118-12":[3,"Nvidia warns buyers of legal risks and plans limits on GPU rental to Chinese businesses."],
-"SPN-1119-01":[2,"SPIL partners with Nvidia to triple Taiwan advanced packaging capacity by mid-2029; Nvidia invests over US$1 billion in Kinsus for substrates."],
-"SPN-1119-02":[3,"TrendForce: new US AI chip export rules tighten compliance for Taiwan foundries and packaging firms, risking order delays."],
-"SPN-1119-03":[2,"Paper: AI-powered X-ray inspection moves from defect detection toward proactive intelligence."],
-"SPN-1119-04":[3,"Microsoft CEO admits inadequate testing contributed to a global Outlook outage (off-topic)."],
-"SPN-1119-05":[3,"Nvidia stops shipping licensed Hopper AI chips to China."],
-"SPN-1119-06":[3,"Taiwanese economists warn of supply-chain and margin effects from Nvidia's leadership change."],
-"SPN-1119-07":[3,"Nvidia says it can thrive without Huang, rejects his return, raises forecasts and buybacks."],
-"SPN-1119-08":[3,"Academia Sinica experts see Nvidia's change as part of US-China supply-chain restructuring."],
-"SPN-1119-09":[3,"Anthropic prices IPO at US$83 per share, raising US$81.3 billion (off-topic for IC design)."],
-"SPN-1119-10":[1,"Synopsys, Hiveware, Silvaco and Axiomise discuss AI agents in chip design: integration, keeping expertise, data protection and cost."],
-"SPN-1119-11":[3,"South Korea nears US$1 trillion in exports on a chip boom, but small firms see limited benefit."],
-"SPN-1120-01":[1,"Intel signs its first external 18A-P foundry customer and names Microsoft as first customer for EMIB packaging."],
-"SPN-1120-02":[3,"TSMC buys a 0.03% stake in Anthropic for US$500 million at the US$83 IPO price."],
-"SPN-1120-03":[1,"Paper: EOTPR fine-pitch probing isolates die-to-die interconnect defects in chiplet devices."],
-"SPN-1120-04":[3,"TSMC halts advanced-node (below 16 nm) orders from Chinese chipmakers without US licences."],
-"SPN-1120-05":[3,"Cal Newport argues superintelligence is improbable (opinion; off-topic)."],
-"SPN-1120-06":[2,"SEMI expects silicon wafer shipments to grow 11.8% in 2026 on AI, memory and fab expansion."],
-"SPN-1120-07":[3,"Nvidia reports record Q3 revenue of US$115.8 billion under interim CEO."],
-"SPN-1120-08":[3,"IEA: data center electricity use could double to 1,000 TWh by 2030."],
-"SPN-1120-10":[2,"Silvaco plasma-chamber simulation links kinetic plasma and feature-scale models to predict etch profiles."],
-"SPN-1120-11":[2,"Detachable fiber connectors for co-packaged and near-packaged optics face standardization and assembly challenges."],
-"SPN-1120-12":[2,"AI aids manufacturing, but autonomous control is limited by data gaps and validation needs."]
+ "SPN-1112-01": [
+  1,
+  "Samsung aims for early 2027 to develop 3D Cube-H hybrid bonding, with a 6 µm interconnect pitch for stacking AI processors and HBM."
+ ],
+ "SPN-1112-02": [
+  3,
+  "Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress becomes interim CEO; stock fell 13%."
+ ],
+ "SPN-1112-03": [
+  2,
+  "Whitepaper on oxide removal, cleaning and activation for power-electronics assembly."
+ ],
+ "SPN-1112-04": [
+  2,
+  "imec CEO says AI pushes innovation toward system-level integration of logic, memory, photonics and packaging."
+ ],
+ "SPN-1112-05": [
+  3,
+  "Samsung and SK hynix watch Nvidia's leadership uncertainty but expect existing supply deals to stay largely unaffected."
+ ],
+ "SPN-1112-06": [
+  2,
+  "Credo shows micro-emitter optics and a 1.6T active light cable with copper-level reliability over 50 m at OCP 2026."
+ ],
+ "SPN-1112-07": [
+  2,
+  "Diamond Foundry makes a first 200 mm single-crystal diamond wafer, aimed at AI-chip cooling."
+ ],
+ "SPN-1112-08": [
+  3,
+  "TSMC sets up a US$500 million investment company to take stakes in chip-ecosystem firms."
+ ],
+ "SPN-1112-09": [
+  3,
+  "TSMC plans to invest up to US$1 billion in OpenAI and Anthropic plus a strategic investment arm (SCMP view of what it gains)."
+ ],
+ "SPN-1112-10": [
+  2,
+  "AMD and Samsung develop embedded processors (EPYC Embedded 9006) with up to 1.8x throughput."
+ ],
+ "SPN-1112-11": [
+  1,
+  "Siemens will acquire Lauterbach to add chip verification and software debugging to its EDA portfolio."
+ ],
+ "SPN-1112-12": [
+  2,
+  "University of Tokyo makes p-type boron carbon nitride on a 2-inch wafer for complementary 2D electronics."
+ ],
+ "SPN-1112-13": [
+  2,
+  "Musk's Terafab targets 1 million wafers per month after 2032, 700,000 of them memory."
+ ],
+ "SPN-1113-01": [
+  1,
+  "IP integration risk is rising with complex SoCs and chiplets; experts call for better specs, cross-block verification, IP management and AI-assisted testing."
+ ],
+ "SPN-1113-02": [
+  1,
+  "Edge AI inference drives memory architectures that cut data movement: processing-in-memory and near-memory computing."
+ ],
+ "SPN-1113-03": [
+  2,
+  "Paper: metal TIM warpage simulations fail with bulk material data; rheometer-derived film data improves accuracy."
+ ],
+ "SPN-1113-04": [
+  3,
+  "EE Times reports Huang's resignation as Nvidia CEO and the task of finding a successor."
+ ],
+ "SPN-1113-05": [
+  3,
+  "CNBC reports an investigation alleging an Alice Huang link to Huawei-linked firms, raising export-control concerns."
+ ],
+ "SPN-1113-06": [
+  3,
+  "Nvidia's turmoil lifts AMD and Broadcom shares as investors expect customers to diversify."
+ ],
+ "SPN-1113-07": [
+  3,
+  "Hon Hai Q3 net profit up 34% to NT$77.52 billion on AI server demand."
+ ],
+ "SPN-1113-08": [
+  3,
+  "CNBC discusses Nvidia's succession uncertainty and investor confidence despite record growth."
+ ],
+ "SPN-1113-09": [
+  1,
+  "Larger models and longer context strain memory capacity, bandwidth, latency, power and cost; compute, interconnect and software must be co-planned."
+ ],
+ "SPN-1113-10": [
+  1,
+  "Agentic AI automates semiconductor engineering workflows and widens design exploration while humans keep oversight and verification."
+ ],
+ "SPN-1113-11": [
+  1,
+  "Arm adds FP8 support; an FPMR register switches between E4M3 and E5M2 formats to cut memory, power and latency."
+ ],
+ "SPN-1113-12": [
+  1,
+  "AI-driven design favors parallelism and power efficiency; experts discuss RISC-V as a flexible open base for AI accelerators."
+ ],
+ "SPN-1116-01": [
+  2,
+  "At electronica 2026 chipmakers stress system-level platforms: MCUs with NPUs, agentic tools, power electronics, vertical power delivery, GaN for data centers."
+ ],
+ "SPN-1116-02": [
+  2,
+  "ASE invests NT$100 billion in two Kaohsiung plants for advanced AI chip packaging, targeting NT$80 billion annual revenue and 5,000 jobs."
+ ],
+ "SPN-1116-03": [
+  1,
+  "Paper: hybrid and fusion wafer bonding underpin both 'More than Moore' heterogeneous integration and 'More Moore' transistor scaling."
+ ],
+ "SPN-1116-04": [
+  3,
+  "Weekly roundup: manufacturing, chiplet integration, automotive processors, AI hardware and Nvidia-related export scrutiny."
+ ],
+ "SPN-1116-05": [
+  3,
+  "TSMC received a record NT$167.586 billion in subsidies from US, Japan, Germany and China in the first nine months of 2026."
+ ],
+ "SPN-1116-06": [
+  3,
+  "Opinion: Taiwan's 'silicon shield' is no guarantee; defense resilience also needed."
+ ],
+ "SPN-1116-07": [
+  3,
+  "US House Speaker cites growing consensus for tighter AI chip export curbs to China."
+ ],
+ "SPN-1116-08": [
+  3,
+  "Experts expect little disruption to Taiwan's supply chain from Huang's exit; ASIC and AMD diversification may speed up; CUDA keeps Nvidia entrenched."
+ ],
+ "SPN-1116-09": [
+  2,
+  "Germanium doping improves electron movement in alpha-gallium oxide films without hurting thermal conductivity (power electronics)."
+ ],
+ "SPN-1116-10": [
+  3,
+  "Analysts: no immediate disruption for TSMC, Samsung, ASUS; long-term roadmap concerns remain."
+ ],
+ "SPN-1116-11": [
+  3,
+  "Singapore faces scrutiny over suspected Nvidia chip smuggling to China and a US$390 million fraud case."
+ ],
+ "SPN-1116-12": [
+  2,
+  "GlobalFoundries breaks ground on a US$10 billion fab in Malta, New York."
+ ],
+ "SPN-1117-01": [
+  1,
+  "AI agents automate customization, verification and optimization in chip design; orchestration, security, privacy and reliability must improve first."
+ ],
+ "SPN-1117-02": [
+  2,
+  "SMIC sees tight capacity through 2027, maybe into 2H28; equipment lead times 16-24 months."
+ ],
+ "SPN-1117-03": [
+  2,
+  "Paper: alkaline wet etch for Al and AlCu as a PAN-free alternative."
+ ],
+ "SPN-1117-04": [
+  2,
+  "TRIUMF accelerator supports semiconductor materials analysis and radiation testing."
+ ],
+ "SPN-1117-05": [
+  3,
+  "US Treasury Secretary urges Nvidia's board to appoint external leadership and probe alleged smuggling."
+ ],
+ "SPN-1117-06": [
+  3,
+  "US requires licences for overseas data centres serving Chinese firms, closing a cloud loophole."
+ ],
+ "SPN-1117-07": [
+  2,
+  "With memory scarce, better test, repair and reliability raise usable die supply across SRAM, DRAM and HBM."
+ ],
+ "SPN-1117-08": [
+  3,
+  "Opinion: export controls may speed China's domestic AI development."
+ ],
+ "SPN-1117-09": [
+  2,
+  "AI-powered three-layer sensor works as a compact spectrometer, cutting reconstruction error 95.6%."
+ ],
+ "SPN-1117-10": [
+  3,
+  "Opinion: Huang's exit shows Asia's dependence on one US company."
+ ],
+ "SPN-1117-11": [
+  3,
+  "Opinion: governments tighten export controls and secure supply chains as China pursues chip independence."
+ ],
+ "SPN-1118-01": [
+  2,
+  "India expands IC packaging: Vishay, Kaynes, Paras Semiconductors and BroadPak launch joint ventures and facilities."
+ ],
+ "SPN-1118-02": [
+  2,
+  "OSAT market forecast at US$80.2 billion by 2033 (market-research press release)."
+ ],
+ "SPN-1118-03": [
+  2,
+  "Paper: LAB, R-LAB and R-LTC flip-chip bonding for AI/HPC chiplet packages."
+ ],
+ "SPN-1118-04": [
+  2,
+  "Nvidia posts record revenue, raises FY2028 growth outlook to 75% and secures memory, substrate and packaging capacity with TSMC's help."
+ ],
+ "SPN-1118-05": [
+  1,
+  "Samsung reportedly develops custom HBM4E for Meta, with customer functions in a 2 nm base die."
+ ],
+ "SPN-1118-06": [
+  3,
+  "Editorial: Taiwan stays vital to AI supply chain despite Huang's exit; risks are delayed servers and volatility."
+ ],
+ "SPN-1118-07": [
+  3,
+  "Nvidia forms a board committee on national security and export controls."
+ ],
+ "SPN-1118-08": [
+  2,
+  "Optical computing gains momentum as AI inference demands energy efficiency; startups build photonic chips."
+ ],
+ "SPN-1118-09": [
+  3,
+  "Intesa Sanpaolo uses quantum-inspired algorithms on GPUs for ATM cash planning (off-topic for IC design)."
+ ],
+ "SPN-1118-10": [
+  1,
+  "Lam Research's David Fried on blending physics and data in simulation for angstrom-level control, memory and advanced packaging."
+ ],
+ "SPN-1118-11": [
+  2,
+  "imec opens a Japan R&D base at Hokkaido University: 15 researchers over five years on photonic ICs and packaging."
+ ],
+ "SPN-1118-12": [
+  3,
+  "Nvidia warns buyers of legal risks and plans limits on GPU rental to Chinese businesses."
+ ],
+ "SPN-1119-01": [
+  2,
+  "SPIL partners with Nvidia to triple Taiwan advanced packaging capacity by mid-2029; Nvidia invests over US$1 billion in Kinsus for substrates."
+ ],
+ "SPN-1119-02": [
+  3,
+  "TrendForce: new US AI chip export rules tighten compliance for Taiwan foundries and packaging firms, risking order delays."
+ ],
+ "SPN-1119-03": [
+  2,
+  "Paper: AI-powered X-ray inspection moves from defect detection toward proactive intelligence."
+ ],
+ "SPN-1119-04": [
+  3,
+  "Microsoft CEO admits inadequate testing contributed to a global Outlook outage (off-topic)."
+ ],
+ "SPN-1119-05": [
+  3,
+  "Nvidia stops shipping licensed Hopper AI chips to China."
+ ],
+ "SPN-1119-06": [
+  3,
+  "Taiwanese economists warn of supply-chain and margin effects from Nvidia's leadership change."
+ ],
+ "SPN-1119-07": [
+  3,
+  "Nvidia says it can thrive without Huang, rejects his return, raises forecasts and buybacks."
+ ],
+ "SPN-1119-08": [
+  3,
+  "Academia Sinica experts see Nvidia's change as part of US-China supply-chain restructuring."
+ ],
+ "SPN-1119-09": [
+  3,
+  "Anthropic prices IPO at US$83 per share, raising US$81.3 billion (off-topic for IC design)."
+ ],
+ "SPN-1119-10": [
+  1,
+  "Synopsys, Hiveware, Silvaco and Axiomise discuss AI agents in chip design: integration, keeping expertise, data protection and cost."
+ ],
+ "SPN-1119-11": [
+  3,
+  "South Korea nears US$1 trillion in exports on a chip boom, but small firms see limited benefit."
+ ],
+ "SPN-1120-01": [
+  1,
+  "Intel signs its first external 18A-P foundry customer and names Microsoft as first customer for EMIB packaging."
+ ],
+ "SPN-1120-02": [
+  3,
+  "TSMC buys a 0.03% stake in Anthropic for US$500 million at the US$83 IPO price."
+ ],
+ "SPN-1120-03": [
+  1,
+  "Paper: EOTPR fine-pitch probing isolates die-to-die interconnect defects in chiplet devices."
+ ],
+ "SPN-1120-04": [
+  3,
+  "TSMC halts advanced-node (below 16 nm) orders from Chinese chipmakers without US licences."
+ ],
+ "SPN-1120-05": [
+  3,
+  "Cal Newport argues superintelligence is improbable (opinion; off-topic)."
+ ],
+ "SPN-1120-06": [
+  2,
+  "SEMI expects silicon wafer shipments to grow 11.8% in 2026 on AI, memory and fab expansion."
+ ],
+ "SPN-1120-07": [
+  3,
+  "Nvidia reports record Q3 revenue of US$115.8 billion under interim CEO."
+ ],
+ "SPN-1120-08": [
+  3,
+  "IEA: data center electricity use could double to 1,000 TWh by 2030."
+ ],
+ "SPN-1120-10": [
+  2,
+  "Silvaco plasma-chamber simulation links kinetic plasma and feature-scale models to predict etch profiles."
+ ],
+ "SPN-1120-11": [
+  2,
+  "Detachable fiber connectors for co-packaged and near-packaged optics face standardization and assembly challenges."
+ ],
+ "SPN-1120-12": [
+  2,
+  "AI aids manufacturing, but autonomous control is limited by data gaps and validation needs."
+ ],
+ "SPN-1123-01": [
+  2,
+  "Intel Foundry describes joining measurement data, AI analytics and industry standards to raise yield and move toward autonomous production."
+ ],
+ "SPN-1123-02": [
+  2,
+  "Tesla trims the memory of its AI4.5 chip from 32GB to 24GB because memory costs are rising, moving to LPDDR5X; similar cuts for AI5 and AI6 aim to save cost and protect supply for Optimus."
+ ],
+ "SPN-1123-04": [
+  3,
+  "Weekly roundup: Intel signed its first external 18A-P customer, Siemens bought Breker, US export limits on China tightened, Nvidia is ramping packaging, Europe commits €33B to chip projects."
+ ],
+ "SPN-1123-05": [
+  3,
+  "Taipei Times editorial argues that government ownership stakes in companies bias US export-control decisions, and calls for divestment to keep regulators neutral."
+ ],
+ "SPN-1123-06": [
+  1,
+  "Nagare Labs, backed by Pat Gelsinger, is developing Z2RAM, a vertically stacked memory that claims SRAM-like speed with higher density, aimed at AI accelerators."
+ ],
+ "SPN-1123-07": [
+  3,
+  "Pat Gelsinger says Europe should stop chasing advanced chipmaking and back emerging technologies; Playground Global works with France's CEA to turn lab research into companies."
+ ],
+ "SPN-1123-08": [
+  3,
+  "Researchers tune the wavelength and polarization of infrared light by twisting two atomically thin semiconductor layers."
+ ],
+ "SPN-1123-09": [
+  3,
+  "Chinese security firm Qi An Xin expands AI-driven cyber defence (Aisoc platform) as automated attacks grow."
+ ],
+ "SPN-1123-10": [
+  3,
+  "Alibaba plans to rely mainly on its own T-Head AI chips after 2027 because tighter US export controls threaten supply; quarterly revenue up 10%, profit up 207%."
+ ],
+ "SPN-1123-11": [
+  2,
+  "Measuring silicon margin under varying workloads (PVTW) goes beyond pass/fail and helps target production tests."
+ ],
+ "SPN-1123-12": [
+  1,
+  "AI accelerators need high current at low voltage, pushing power delivery to vertical designs with voltage regulators integrated near the processor."
+ ],
+ "SPN-1123-13": [
+  2,
+  "Virtual twins plus machine learning model process variation to improve DRAM yield, with predicted yield rising from 0.1% to 78.5%."
+ ],
+ "SPN-1124-01": [
+  3,
+  "TSMC sees strong AI chip demand despite market worries, keeps investing in capacity, took a stake in Anthropic and tightens chip exports to China."
+ ],
+ "SPN-1124-02": [
+  1,
+  "Experts from Cadence, Synopsys, universities and AI startups say AI is changing chip design and verification work, and universities are updating curricula."
+ ],
+ "SPN-1124-03": [
+  2,
+  "Amkor's S-SWIFT packaging uses an embedded-trace RDL process to give die-to-die links more bandwidth for AI, HPC and data-center chips."
+ ],
+ "SPN-1124-04": [
+  3,
+  "Pat Gelsinger says Moore's Law is not dead and calls for a 10,000-fold efficiency gain through light, power, cooling, materials and packaging."
+ ],
+ "SPN-1124-05": [
+  3,
+  "Nvidia reinstated Jensen Huang as CEO after briefly removing him over alleged ties to a suspected Chinese spy; shares rose 25% premarket."
+ ],
+ "SPN-1124-06": [
+  3,
+  "US threats against firms building overseas data centers and tighter export controls push other governments to diversify AI suppliers and build sovereign computing."
+ ],
+ "SPN-1124-07": [
+  3,
+  "AI speeds up scientific research but raises concerns about transparency, strained peer review and the role of human researchers."
+ ],
+ "SPN-1124-08": [
+  3,
+  "SoftBank explored a $1 trillion purchase of SK Hynix but dropped it over financial and regulatory hurdles; it shows Masayoshi Son wants control of the AI supply chain including memory."
+ ],
+ "SPN-1124-09": [
+  2,
+  "Diamond Foundry made the first 200mm single-crystal diamond wafer, meant to spread heat from AI chips and lower hotspot temperatures."
+ ],
+ "SPN-1124-10": [
+  3,
+  "China's chip exports rose 108% in 2026, about double South Korea's growth, driven by AI, chips, EVs and advanced manufacturing."
+ ],
+ "SPN-1124-11": [
+  3,
+  "Under Prime Minister Takaichi, Japan uses investment in chips, AI, energy and supply chains to build regional influence and offer Southeast Asia an alternative to US-China rivalry."
+ ],
+ "SPN-1124-12": [
+  2,
+  "Mass spectrometry can monitor trace gas impurities at parts-per-trillion levels in fabs to protect yield and quality."
+ ],
+ "SPN-1124-13": [
+  2,
+  "Fab design now plans tool integration early and works with suppliers so the fab stays adaptable and lower risk."
+ ],
+ "SPN-1125-01": [
+  3,
+  "Editorial on Japan's upgraded 56-qubit quantum computer: the next challenge is commercialization amid global competition."
+ ],
+ "SPN-1125-02": [
+  1,
+  "AI can help chip-design productivity, but needs scalable data management, good data, IP security and real domain understanding to work in practice."
+ ],
+ "SPN-1125-03": [
+  2,
+  "As packages get denser, alpha-particle emission becomes a growing soft-error reliability risk for AI and HPC packages."
+ ],
+ "SPN-1125-04": [
+  3,
+  "MIT Energy Initiative marks 20 years of work on decarbonization, renewable supply, grid resilience and sustainable fuels."
+ ],
+ "SPN-1125-05": [
+  3,
+  "Edge AI, robotics and sensors are driving autonomous farming with real-time crop monitoring."
+ ],
+ "SPN-1125-06": [
+  3,
+  "Huang's return lifted AI stocks, but Southeast Asian data-center growth still faces regulatory, financial and geopolitical limits."
+ ],
+ "SPN-1125-07": [
+  3,
+  "A new UL 1741 certification program could make vehicle-to-grid power feeding easier to adopt."
+ ],
+ "SPN-1125-08": [
+  1,
+  "AI can speed up derivative chip designs, but physical constraints, missing data and changing workflows mean human experts are still needed to judge feasibility and cost."
+ ],
+ "SPN-1125-09": [
+  1,
+  "AI tools struggle to produce implementable RTL that meets power and performance targets, while high-level synthesis stays strong in productivity and verification."
+ ],
+ "SPN-1125-10": [
+  1,
+  "Photonic design must be judged at system level because parts that each meet spec can behave differently once combined into an optical link."
+ ],
+ "SPN-1125-11": [
+  1,
+  "Arteris analysed 1,000 silicon design starts and finds rising system complexity, AI-driven growth and growing importance of interconnects."
+ ],
+ "SPN-1125-12": [
+  2,
+  "The AI compute race is lifting demand for GPUs, memory, packaging and data centers, reshaping supply chains and raising energy use."
+ ],
+ "SPN-1125-13": [
+  3,
+  "Nvidia's CEO change, AI-chip export scrutiny and ongoing rare-earth shortages from China add uncertainty to global chip supply and trade."
+ ]
 }

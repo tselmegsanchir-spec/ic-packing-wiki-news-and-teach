@@ -2,8 +2,8 @@
 title: Foundry capacity and process nodes
 type: concept
 tier: 2
-updated: 2026-11-20
-sources: [SPN-1117-02, SPN-1120-01, SPN-1120-06, SPN-1116-05, SPN-1116-12, SPN-1112-13]
+updated: 2026-11-28
+sources: [SPN-1117-02, SPN-1120-01, SPN-1120-06, SPN-1116-05, SPN-1116-12, SPN-1112-13, SPN-1123-04, SPN-1124-13]
 ---
 # Foundry capacity and process nodes
 Summary: Demand for AI chips keeps fabs tight, and new capacity is arriving slowly.
@@ -14,5 +14,7 @@ Summary: Demand for AI chips keeps fabs tight, and new capacity is arriving slow
 - TSMC received a record NT$167.586 billion in subsidies from the US, Japan, Germany and China in the first nine months of 2026. [SPN-1116-05, 2026-11-16]
 - GlobalFoundries broke ground on a US$10 billion fab in Malta, New York. [SPN-1116-12, 2026-11-16]
 - Musk's Terafab targets 1 million wafers per month after 2032, including 700,000 memory wafers. [SPN-1112-13, 2026-11-12]
+- Intel signed its first external 18A-P customer. [SPN-1123-04, 2026-11-23]
+- Fab design now plans tool integration early with suppliers to stay adaptable. [SPN-1124-13, 2026-11-24]
 
 Related: [[companies/tsmc]] · [[companies/intel]] · [[concepts/advanced-packaging-capacity]] · [[index]]

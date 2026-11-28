@@ -2,8 +2,8 @@
 title: Chiplets and hybrid bonding
 type: concept
 tier: 1
-updated: 2026-11-20
-sources: [SPN-1112-01, SPN-1116-03, SPN-1118-03, SPN-1120-03, SPN-1112-04]
+updated: 2026-11-28
+sources: [SPN-1112-01, SPN-1116-03, SPN-1118-03, SPN-1120-03, SPN-1112-04, SPN-1124-03, SPN-1125-03]
 ---
 # Chiplets and hybrid bonding
 Summary: AI chips are increasingly built by stacking or joining several smaller dies; the bonding method decides how fine the connections can be.
@@ -15,5 +15,7 @@ Summary: AI chips are increasingly built by stacking or joining several smaller 
 - imec's CEO says AI shifts innovation to system-level integration of logic, memory, photonics and packaging. [SPN-1112-04, 2026-11-12]
 - (Explainer) Flip-chip uses solder bumps to connect a die face-down; hybrid bonding joins copper pads directly, allowing a much smaller pitch, so more connections fit between stacked dies.
 - (AI hypothesis) As pitch shrinks, designers may need to plan die-to-die interfaces and test access earlier in the design flow; the sources do not say this directly.
+- Amkor's S-SWIFT uses embedded-trace RDL to give die-to-die links more bandwidth. [SPN-1124-03, 2026-11-24]
+- Alpha-particle emission is a growing soft-error risk as package density rises. [SPN-1125-03, 2026-11-25]
 
 Related: [[concepts/co-packaged-optics]] · [[ic-design-link/packaging-aware-design]] · [[concepts/hbm-and-memory-wall]] · [[glossary]] · [[index]]

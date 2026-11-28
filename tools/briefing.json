@@ -1,60 +1,256 @@
 {
-"title":"Chip Morning Brief","range":"Nov 12-20, 2026",
-"tldr":[
- "Chips are being stacked, not just shrunk: Samsung is aiming for hybrid bonding in 2027.",
- "AI agents are entering chip design, but humans still sign off.",
- "Packaging and memory, not just transistors, now limit AI chips, so money is flowing there."],
-"cards":[
-{"tier":"1","head":"Samsung bets on gluing chips together with copper","topic":"Chiplets · hybrid bonding",
- "happened":[{"t":"Samsung targets early 2027 to develop 3D Cube-H hybrid bonding, with a 6 µm interconnect pitch, for AI processors and HBM.","c":["SPN-1112-01"]},
-  {"t":"A paper calls hybrid and fusion wafer bonding foundational for both 'More than Moore' integration and 'More Moore' transistor scaling.","c":["SPN-1116-03"]},
-  {"t":"Fine-pitch probing (EOTPR) can isolate die-to-die interconnect defects in chiplet devices.","c":["SPN-1120-03"]}],
- "basics":"Old way: a chip hangs on tiny solder balls (flip-chip). Hybrid bonding presses copper pads directly onto each other, so the connections can be much closer together. Closer connections mean more wires between stacked chips, which means more bandwidth for less energy.",
- "ai":"If connections get this dense, designers will probably have to plan die-to-die links and test access from the first day of a design, not at the end."},
-{"tier":"1","head":"AI agents are joining the chip-design team, on a leash","topic":"EDA · AI agents",
- "happened":[{"t":"Agentic AI automates engineering workflows and widens design exploration while engineers keep oversight and verification.","c":["SPN-1113-10"]},
-  {"t":"Orchestration, security, data privacy and reliability must improve before agents get more autonomy.","c":["SPN-1117-01"]},
-  {"t":"Synopsys, Hiveware, Silvaco and Axiomise name integration, expertise retention, data protection and cost as challenges.","c":["SPN-1119-10"]},
-  {"t":"Siemens will acquire Lauterbach to combine chip verification with software debugging in its EDA portfolio.","c":["SPN-1112-11"]}],
- "basics":"EDA is the software engineers use to design chips: write the logic (RTL), simulate it, check it (verification), then lay it out. 'Shift left' means catching bugs earlier in that chain, because a bug found after manufacturing costs far more.",
- "ai":"Routine checking and exploration will likely be automated first, so a beginner's edge may shift toward writing clear specs and judging whether the AI's results are right. Learn RTL and verification basics anyway."},
-{"tier":"1","head":"The real AI bottleneck is moving data, not computing","topic":"Memory wall · HBM",
- "happened":[{"t":"Edge AI inference drives memory designs that cut data movement, such as processing-in-memory and near-memory computing.","c":["SPN-1113-02"]},
-  {"t":"Larger models and longer context windows strain memory capacity, bandwidth, latency, power and cost.","c":["SPN-1113-09"]},
-  {"t":"Samsung is reportedly developing custom HBM4E for Meta, with customer-specific functions in a 2 nm base die.","c":["SPN-1118-05"]},
-  {"t":"With memory scarce, better test, repair and reliability raise the number of usable dies.","c":["SPN-1117-07"]}],
- "basics":"HBM is a tower of memory chips sitting right beside the processor. The chip at the bottom of the tower (base die) handles the connection; putting a customer's own logic there means memory is becoming part of the chip design itself.",
- "ai":"Architects may increasingly be judged on how little data their design moves, not only on raw speed."},
-{"tier":"2","head":"Packaging is now where AI chips get built, and the money followed","topic":"Packaging capacity · foundry",
- "happened":[{"t":"Intel signed its first external 18A-P foundry customer and named Microsoft as first customer for EMIB packaging.","c":["SPN-1120-01"]},
-  {"t":"ASE is investing NT$100 billion in two Kaohsiung plants for advanced AI chip packaging, aiming at 5,000 jobs.","c":["SPN-1116-02"]},
-  {"t":"SPIL partnered with Nvidia to triple Taiwan's advanced packaging capacity by mid-2029.","c":["SPN-1119-01"]},
-  {"t":"Nvidia is also investing over US$1 billion in Kinsus to expand substrate manufacturing.","c":["SPN-1119-01"]}],
- "basics":"Packaging means assembling finished chips into a working module. ASE and SPIL do this for others (they are OSATs).",
- "ai":"With this much Taiwan capacity planned, packaging skills may become a regional career advantage for chip engineers."},
-{"tier":"2","head":"Chips stay scarce into 2027, maybe 2028","topic":"Capacity · wafers",
- "happened":[{"t":"SMIC sees tight capacity through 2027, with equipment lead times of 16-24 months.","c":["SPN-1117-02"]},
-  {"t":"SEMI expects silicon wafer shipments to grow 11.8% in 2026, driven by AI, memory and fab expansion.","c":["SPN-1120-06"]}],
- "basics":"A new fab needs equipment ordered up to two years ahead, so shortages cannot be fixed quickly.",
- "ai":"Scarcity may keep chip prices and the value of efficient designs high for a while."},
-{"tier":"3","head":"Washington tightens the rules on AI chips for China","topic":"Policy",
- "happened":[{"t":"The US requires licences for overseas data centres serving Chinese firms.","c":["SPN-1117-06"]},
-  {"t":"TSMC halted advanced orders below 16 nm from Chinese chipmakers without US licences.","c":["SPN-1120-04"]},
-  {"t":"Nvidia stopped shipping licensed Hopper AI chips to China.","c":["SPN-1119-05"]}],
- "ai":"Expect more compliance work for Taiwan's chip firms."},
-{"tier":"3","head":"Nvidia's CEO leaves, yet the supply chain shrugs","topic":"Nvidia",
- "happened":[{"t":"Nvidia reported record Q3 revenue of US$115.8 billion under an interim CEO.","c":["SPN-1120-07"]},
-  {"t":"Experts expect little disruption to Taiwan's supply chain from the Nvidia leadership change.","c":["SPN-1116-08"]}],
- "ai":"Demand for AI chips looks stronger than any one person."},
-{"tier":"3","head":"TSMC buys into the AI labs, and the numbers don't match","topic":"TSMC investments",
- "happened":[{"t":"TSMC set up a US$500 million investment company to take stakes in chip-ecosystem firms.","c":["SPN-1112-08"]},
-  {"t":"Another report says TSMC plans up to US$1 billion in OpenAI and Anthropic.","c":["SPN-1112-09"]},
-  {"t":"A later report says TSMC bought a 0.03% Anthropic stake for US$500 million.","c":["SPN-1120-02"]}],
- "flag":"The reports give different amounts and are not reconciled; they may describe different things (a fund versus specific stakes).",
- "ai":"Treat the exact figures with caution until the original filings are checked."}
-],
-"take":[
- "The bottleneck has moved from transistors to connections: bonding, packaging and memory.",
- "AI helps design chips but is supervised, so fundamentals (RTL, verification) still matter.",
- "Scarcity through 2027 supports investment in Taiwan's packaging."]
+ "title": "Chip Morning Brief",
+ "range": "Nov 12-25, 2026",
+ "tldr": [
+  "AI helps design chips, but three new articles agree: people still check and decide.",
+  "AI chips are limited by power, memory cost and heat, not only by transistors.",
+  "Nvidia's CEO is back, and export rules keep pushing countries to build their own chips."
+ ],
+ "cards": [
+  {
+   "tier": "1",
+   "head": "Three articles, one message: AI helps design chips, people decide",
+   "topic": "EDA · AI in chip design",
+   "happened": [
+    {
+     "t": "Experts from Cadence, Synopsys, universities and AI startups say AI is changing chip design and verification work, and universities are updating curricula.",
+     "c": [
+      "SPN-1124-02"
+     ]
+    },
+    {
+     "t": "AI can raise design productivity, but needs scalable data management, good data, IP security and domain understanding.",
+     "c": [
+      "SPN-1125-02"
+     ]
+    },
+    {
+     "t": "AI struggles to produce implementable RTL that meets power and performance targets, while high-level synthesis stays strong.",
+     "c": [
+      "SPN-1125-09"
+     ]
+    },
+    {
+     "t": "For derivative chip designs, AI helps, but human experts still judge feasibility and cost.",
+     "c": [
+      "SPN-1125-08"
+     ]
+    }
+   ],
+   "basics": "RTL is the code that describes what a chip does, cycle by cycle. High-level synthesis (HLS) turns shorter, C-like code into RTL automatically. A derivative design is a new chip built by changing an older one. The articles say AI is not yet good at producing RTL that meets power and speed goals.",
+   "ai": "The tools will keep improving, but the part nobody can hand over is judging whether a result is right. Learning RTL, HLS and verification basics keeps you useful next to AI."
+  },
+  {
+   "tier": "1",
+   "head": "Power and wiring are becoming design problems for AI chips",
+   "topic": "AI accelerators · power and interconnect",
+   "happened": [
+    {
+     "t": "AI accelerators need high current at low voltage, which moves power delivery to vertical designs with regulators near the processor.",
+     "c": [
+      "SPN-1123-12"
+     ]
+    },
+    {
+     "t": "Arteris analysed 1,000 silicon design starts and finds rising system complexity and growing importance of interconnects.",
+     "c": [
+      "SPN-1125-11"
+     ]
+    },
+    {
+     "t": "Photonic design must be judged at system level, because parts that each meet spec can behave differently once combined into an optical link.",
+     "c": [
+      "SPN-1125-10"
+     ]
+    }
+   ],
+   "basics": "A chip needs power delivered at a low voltage but a very large current, and big currents lose energy along the way. Putting the voltage regulator close to the processor shortens that path. An interconnect is the wiring network that carries data between blocks inside a chip.",
+   "ai": "Designers can no longer treat power and wiring as something the package team handles later. Expect them to appear as constraints from the first architecture draft."
+  },
+  {
+   "tier": "1",
+   "head": "Denser packages bring heat and radiation problems",
+   "topic": "Packaging · chiplets · reliability",
+   "happened": [
+    {
+     "t": "Amkor's S-SWIFT uses embedded-trace RDL to give die-to-die links more bandwidth for AI, HPC and data-center chips.",
+     "c": [
+      "SPN-1124-03"
+     ]
+    },
+    {
+     "t": "Alpha-particle emission is a growing soft-error risk as package density rises.",
+     "c": [
+      "SPN-1125-03"
+     ]
+    },
+    {
+     "t": "Diamond Foundry made the first 200mm single-crystal diamond wafer, meant to spread heat from AI chips.",
+     "c": [
+      "SPN-1124-09"
+     ]
+    },
+    {
+     "t": "Paper: EOTPR fine-pitch probing isolates die-to-die interconnect defects in chiplet devices.",
+     "c": [
+      "SPN-1120-03"
+     ]
+    }
+   ],
+   "basics": "A chiplet design splits one big chip into several small dies in one package. RDL is the extra wiring layer that connects them. A soft error is a bit that flips because of stray radiation, such as an alpha particle, without any permanent damage. The denser the package, the harder it is to cool, to test and to protect.",
+   "ai": "Test access, cooling and error protection will probably need planning at the same time as the logic design, not after it."
+  },
+  {
+   "tier": "1",
+   "head": "Memory gets expensive, and new kinds of memory are proposed",
+   "topic": "Memory · HBM · SRAM",
+   "happened": [
+    {
+     "t": "Tesla cut the memory of its AI4.5 chip from 32GB to 24GB because memory costs are rising, moving to LPDDR5X.",
+     "c": [
+      "SPN-1123-02"
+     ]
+    },
+    {
+     "t": "Nagare Labs, backed by Pat Gelsinger, is developing Z2RAM, a vertically stacked memory that claims SRAM-like speed with higher density.",
+     "c": [
+      "SPN-1123-06"
+     ]
+    },
+    {
+     "t": "SoftBank explored a $1 trillion purchase of SK Hynix but dropped it over financial and regulatory hurdles.",
+     "c": [
+      "SPN-1124-08"
+     ]
+    }
+   ],
+   "basics": "SRAM is very fast memory made from transistors, but it takes a lot of chip area. DRAM is denser but slower and sits outside the chip. LPDDR5X is a low-power kind of DRAM. The memory wall means processors can compute faster than memory can feed them.",
+   "ai": "When memory is the costly part, architects may be asked to do the same job with less of it. Memory size may become a design target, not a given."
+  },
+  {
+   "tier": "2",
+   "head": "Intel Foundry: first outside customer, and a push on yield",
+   "topic": "Foundry · Intel · yield",
+   "happened": [
+    {
+     "t": "Intel signed its first external 18A-P customer, according to a weekly roundup.",
+     "c": [
+      "SPN-1123-04"
+     ]
+    },
+    {
+     "t": "Intel had signed its first external 18A-P foundry customer and named Microsoft as first customer for EMIB packaging.",
+     "c": [
+      "SPN-1120-01"
+     ]
+    },
+    {
+     "t": "Intel Foundry describes joining measurement data, AI analytics and industry standards to raise yield and move toward autonomous production.",
+     "c": [
+      "SPN-1123-01"
+     ]
+    }
+   ],
+   "basics": "A foundry makes chips for other companies. 18A is Intel's newest process name. Yield is the share of chips on a wafer that work. EMIB is Intel's way of linking dies in a package with small silicon bridges.",
+   "ai": "A second serious foundry option matters to designers because it gives more choice of where to build. It is still early, and one customer is not yet a trend."
+  },
+  {
+   "tier": "3",
+   "head": "Nvidia's CEO is reinstated, and the questions remain",
+   "topic": "Nvidia · leadership · markets",
+   "happened": [
+    {
+     "t": "Nvidia reinstated Jensen Huang as CEO after briefly removing him over alleged ties to a suspected Chinese spy; shares rose 25% premarket.",
+     "c": [
+      "SPN-1124-05"
+     ]
+    },
+    {
+     "t": "Nvidia's CEO was first reported to resign after 33 years.",
+     "c": [
+      "SPN-1112-02"
+     ]
+    },
+    {
+     "t": "Nvidia's CEO change plus export scrutiny and rare-earth shortages add supply-chain uncertainty, says Sourceability.",
+     "c": [
+      "SPN-1125-13"
+     ]
+    },
+    {
+     "t": "An editorial argues that government stakes in firms bias US export-control decisions.",
+     "c": [
+      "SPN-1123-05"
+     ]
+    }
+   ],
+   "flag": "Reports disagree: the first said \"resigns\", the later one says \"briefly removed, then reinstated\". The cause is also described differently. The wiki records this as Conflict 4.",
+   "ai": "For a chip student the story matters mostly as a supply risk. The leader changed back, but the rules around exports did not change."
+  },
+  {
+   "tier": "3",
+   "head": "Export controls push countries to build their own chips",
+   "topic": "Export controls · China · sovereign AI",
+   "happened": [
+    {
+     "t": "Alibaba plans to rely mainly on its own T-Head AI chips after 2027 because tighter US export controls threaten supply.",
+     "c": [
+      "SPN-1123-10"
+     ]
+    },
+    {
+     "t": "US threats against overseas data-center builders and tighter controls push other governments to diversify AI suppliers.",
+     "c": [
+      "SPN-1124-06"
+     ]
+    },
+    {
+     "t": "China's chip exports rose 108% in 2026, about double South Korea's growth.",
+     "c": [
+      "SPN-1124-10"
+     ]
+    },
+    {
+     "t": "US export limits on China tightened again, according to a weekly roundup.",
+     "c": [
+      "SPN-1123-04"
+     ]
+    }
+   ],
+   "basics": "An export control is a government rule that limits which chips or tools can be sold to a country. Sovereign AI means a country wants its own AI computing capacity.",
+   "ai": "If more countries build their own chips, there will be more chip projects and more designer jobs outside the usual few companies. This is a guess, not a result."
+  },
+  {
+   "tier": "3",
+   "head": "TSMC says AI demand is strong, and the AI race lifts packaging",
+   "topic": "TSMC · AI demand",
+   "happened": [
+    {
+     "t": "TSMC sees strong AI chip demand despite market worries, keeps investing in capacity and took a stake in Anthropic.",
+     "c": [
+      "SPN-1124-01"
+     ]
+    },
+    {
+     "t": "TSMC's Anthropic stake is 0.03%, bought for US$500 million at the US$83 IPO price.",
+     "c": [
+      "SPN-1120-02"
+     ]
+    },
+    {
+     "t": "The AI compute race is lifting demand for GPUs, memory, packaging and data centers.",
+     "c": [
+      "SPN-1125-12"
+     ]
+    }
+   ],
+   "flag": "Earlier reports gave different amounts for TSMC's AI investments. The wiki keeps them as Conflict 1.",
+   "ai": "The leading foundry betting on AI companies suggests it expects the demand to last. Packaging and memory keep appearing next to GPUs, so those fields are likely to stay busy."
+  }
+ ],
+ "take": [
+  "AI helps with chip design but does not replace the checking, so fundamentals (RTL, verification) still matter.",
+  "Power, memory and heat are now design constraints that appear from the start of a project.",
+  "Export rules keep reshaping who builds chips, so supply and policy news is worth a glance."
+ ]
 }

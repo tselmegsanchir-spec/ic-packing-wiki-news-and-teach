@@ -21,4 +21,11 @@ sources: [SPN-1112-01, SPN-1113-11, SPN-1116-03]
 - (Explainer) **18A / 2 nm**: marketing names of leading-edge process nodes. (дэвшилтэт процессын түвшин)
 - Samsung's hybrid bonding target uses a 6 µm pitch. [SPN-1112-01, 2026-11-12]
 
+- (Explainer) **RDL**: redistribution layer, extra wiring on a package that reroutes die connections. (дахин хуваарилах давхарга)
+- (Explainer) **LPDDR5X**: low-power DRAM type used in phones and edge AI chips. (бага чадалтай DRAM)
+- (Explainer) **SRAM**: fast on-chip memory built from transistors, takes much area. (хурдан, том талбай)
+- (Explainer) **Soft error**: a bit flip caused by radiation such as alpha particles, not by permanent damage. (түр зуурын алдаа)
+- (Explainer) **HLS**: high-level synthesis, turning C-like code into RTL. (өндөр түвшний синтез)
+- (Explainer) **Sovereign AI**: a country building its own AI computing capacity. (улсын өөрийн AI тооцоолол)
+
 Related: [[index]]

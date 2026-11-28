@@ -1,6 +1,6 @@
 # Index (catalog)
 
-Last updated: 2026-11-20. Sources: 7 newsletter issues (Nov 12-20, 2026), 82 unique items.
+Last updated: 2026-11-28. Sources: 10 newsletter issues (Nov 12-25, 2026), 120 unique items.
 
 ## Sources
 - [[sources/spn-2026-11-12]]
@@ -10,6 +10,9 @@ Last updated: 2026-11-20. Sources: 7 newsletter issues (Nov 12-20, 2026), 82 uni
 - [[sources/spn-2026-11-18]]
 - [[sources/spn-2026-11-19]]
 - [[sources/spn-2026-11-20]]
+- [[sources/spn-2026-11-23]]
+- [[sources/spn-2026-11-24]]
+- [[sources/spn-2026-11-25]]
 
 ## Concepts
 - [[concepts/advanced-packaging-capacity]]

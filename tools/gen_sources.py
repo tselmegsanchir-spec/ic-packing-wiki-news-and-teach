@@ -5,7 +5,7 @@ for it in items: by[it['date']].append(it)
 for date,its in by.items():
     subj=its[0]['issue']
     ids=[i['id'] for i in its]
-    L=["---",f"title: SPN issue {date}",f"type: source","tier: 1",f"updated: 2026-11-20",f"sources: [{', '.join(ids)}]","---",
+    L=["---",f"title: SPN issue {date}",f"type: source","tier: 1",f"updated: {max(date,'2026-11-20')}",f"sources: [{', '.join(ids)}]","---",
        f"# Semiconductor Packaging News — {date}",f"Issue headline: {subj}. Sponsor ads, Industry Press releases, quiz and cartoon are excluded (see AGENTS.md section 9).","",
        "| ID | Tier | Item (outlet) | My one-line paraphrase | Link |","|---|---|---|---|---|"]
     for i in its:
